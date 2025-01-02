@@ -1,0 +1,294 @@
+body {
+    font-family: "Jost";
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-menu {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Section */
+
+#title {
+    width: 100%;
+    height: 100vh;
+    background-image: url(banner-3.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+@media (max-width: 990px) {
+    #title {
+        width: 100%;
+        height: 80vh;
+        background-image: url(banner-3.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .display-4 {
+        font-size: 2.1rem;
+        font-weight: 600;
+    }
+
+    #title {
+        width: 100%;
+        height: 55vh;
+        background-image: url(banner-3.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+.main-text {
+    padding: 10% 13%;
+}
+
+.main-text>h5 {
+    color: red;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.main-text>h1 {
+    color: #000;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.main-text>p {
+    color: #333c56;
+    font-style: italic;
+}
+
+.btn {
+    padding: 1% 2%;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.down-arrow {
+    position: absolute;
+    top: 80%;
+    right: 11%;
+}
+
+.down>i {
+    font-size: 1.5rem;
+    color: #2c2c2c;
+    border: 2px solid #2c2c2c;
+    border-radius: 50px;
+    padding: 50%;
+}
+
+.down>i:hover {
+    background-color: #2c2c2c;
+    color: #fff;
+    transition: all .42s ease;
+}
+
+/* Product Section */
+
+.trending-product {
+    padding: 7%;
+}
+
+.center-text h2 {
+    color: #111;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.center-text span {
+    color: #EE1c47;
+}
+
+.temp img {
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+    cursor: pointer;
+}
+
+.temp img:hover {
+    transform: scale(0.9);
+}
+
+.temp {
+    position: relative;
+}
+
+.products-text>h5 {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #27b737;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+.heart-icon>i {
+    position: absolute;
+    right: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.heart-icon>i:hover {
+    color: #EE1c47;
+}
+
+.rating>i {
+    color: #FF8c00;
+    font-size: 1.2rem;
+}
+
+.price>h4 {
+    color: #111;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.price>p {
+    color: #151515;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* <!-- carousel review section --> */
+
+.client-review {
+    background-color: #f3f4f6;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.review>h3 {
+    color: #111;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.review>img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2% 0;
+}
+
+.review>p {
+    color: #707070;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 2.5%;
+}
+
+.review>h2 {
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+
+/* cart-section */
+
+.update-news {
+    padding: 5% 10%;
+}
+
+.up-center-text h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #111;
+}
+
+.cart img {
+    width: auto;
+    height: auto;
+}
+
+.cart {
+    padding: 2% 1%;
+}
+
+.cart h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #636872;
+}
+
+.cart h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #111;
+}
+
+.cart p {
+    font-size: 1.1rem;
+    color: #707070;
+    line-height: 1.2;
+}
+
+.cart h6 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #151515;
+}
+
+.footer {
+    padding: 5% 10%;
+    background-color: #f3f4f6;
+}
+
+.first-info img {
+    width: 50%;
+}
+
+.contact-info h4 {
+    color: #212529;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.contact-info p {
+    color: #565656;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+    cursor: pointer;
+    transition: all .42;
+}
+
+.contact-info span {
+    color: #565656;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+    line-height: 1.5;
+    cursor: pointer;
+    transition: all .42;
+}
